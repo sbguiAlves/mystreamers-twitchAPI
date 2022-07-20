@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "id": "39930573017",
+            "user_id": "36413513",
+            "user_login": "mrfalll",
+            "user_name": "MrFalll",
+            "game_id": "491931",
+            "game_name": "Escape from Tarkov",
+            "type": "live",
+            "title": "143 - !SUBATHON LIVE FINITA! Ajude com seu amor!",
+            "viewer_count": 794,
+            "started_at": "2022-07-17T14:58:54Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrfalll-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "39935225337",
+            "user_id": "112089087",
+            "user_login": "udocinho",
+            "user_name": "uDocinho",
+            "game_id": "511224",
+            "game_name": "Apex Legends",
+            "type": "live",
+            "title": "EVENTINHO AMANHÃ | !LOJA !REDRAGON !SOCIAIS !PIX !SUB !LISTA",
+            "viewer_count": 106,
+            "started_at": "2022-07-18T12:00:14Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_udocinho-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f",
+                "8bbdb07d-df18-4f82-a928-04a9003e9a7e",
+                "ac763b17-7bea-4632-9eb4-d106689ff409",
+                "cc8d5abb-39c9-4942-a1ee-e1558512119e",
+                "fd8f5e68-42d3-4544-a273-5fc92dabc568"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "39935315129",
+            "user_id": "46866353",
+            "user_login": "hukizan",
+            "user_name": "Hukizan",
+            "game_id": "1366308398",
+            "game_name": "Say No! More",
+            "type": "live",
+            "title": "Live 123: ESTAMOS OFICIALMENTE DE VOLTA",
+            "viewer_count": 53,
+            "started_at": "2022-07-18T13:01:47Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hukizan-{width}x{height}.jpg",
+            "tag_ids": [
+                "afc8211a-8eee-48b8-9e18-212f22f657db",
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "39935540073",
+            "user_id": "416607315",
+            "user_login": "bolinhodelua",
+            "user_name": "bolinhodelua",
+            "game_id": "514934",
+            "game_name": "Story of Seasons: Friends of Mineral Town",
+            "type": "live",
+            "title": "Finalmente vamo fazendar ♥",
+            "viewer_count": 16,
+            "started_at": "2022-07-18T14:46:05Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bolinhodelua-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ],
+            "is_mature": false
+        }
+    ],
+    "pagination": {}
+}
