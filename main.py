@@ -1,6 +1,6 @@
-import requests
-import json
 import webbrowser
+
+import requests
 
 Client_Id = ''
 Secret = ''
@@ -13,7 +13,7 @@ def get_authorization():
         'response_type': 'code',
         'client_id': Client_Id,
         'redirect_uri': 'http://localhost:3000',
-        'scope' : 'user:read:follows'
+        'scope': 'user:read:follows'
     }
 
     request_authorization = requests.get(url=auth_url, params=aut_params)

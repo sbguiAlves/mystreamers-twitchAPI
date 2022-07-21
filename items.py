@@ -1,54 +1,38 @@
 import json
+from collections import namedtuple
+from datetime import datetime, timedelta
 
 
-class Stream:
-    def __init__(self, user_name, status, title, game_name, started_at):
-        self.user_name = user_name
-        self.status = status
-        self.title = title
-        self.game_name = game_name
-        self.started_at = started_at
-
-    def __iter__(self):
-        yield from{
-            "user_name": self.user_name,
-            "status": self.status,
-            "title": self.title,
-            "game_name": self.game_name,
-            "started_at": self.started_at
-        }.items()
-
-    def __str__(self):
-        return json.dumps(dict(self), ensure_ascii=False)
-
-    def __repr__(self):
-        return self.__str__()
+def customDataDecoder(dataDict):
+    return namedtuple('X', dataDict.keys())(*dataDict.values())
 
 
-class Data:
-    def __init__(self, streams):
-        self.streams = streams
-
-    def __iter__(self):
-        yield from{
-            "data": self.streams
-        }.items()
-
-    def __str__(self):
-        return json.dumps(dict(self), ensure_ascii=False)
-
-    def __repr__(self):
-        return self.__str__()
+def verificar_status(status):
+    if status == 'live':
+        return 'Estamos ao vivo! Vem'
+    return 'Estamos offline'
 
 
-with open('streams.json', 'r') as f:
-    json_str = f.read()
-    json_data = Data(json.loads(json_str))
+def tempo_transmissao(data_str):
+    data_obj = datetime.strptime(data_str, "%Y-%m-%dT%H:%M:%SZ")
+    data_inicio = data_obj.strftime("%d/%m, %H:%M:%S")
+
+    hora_atual = datetime.now()
+    segundos = (hora_atual - data_obj).seconds
+
+    return f"Começou às: {data_inicio} \u2014 Tempo de Transmissão: {str(timedelta(seconds=segundos))}"
 
 
-for item in json_data.streams["data"]:
-    print(item["user_name"] + " \u2014 Status: " + item["type"])
-    print("Título:" + item["title"])
-    print("Jogo atual \u2014 " + item["game_name"])
-    print("Data de início: " + item["started_at"] + "\n")
+with open('streams.json', encoding="utf-8") as file:
+    json_file = file.read()
+    data_obj = json.loads(json_file, object_hook=customDataDecoder)
 
+
+for item in data_obj.data:
+    print(item.user_name + " \u2014 Status: " + verificar_status(item.type))
+    print("Título: " + item.title)
+    print("Jogo atual \u2014 " + item.game_name)
+    print(tempo_transmissao(item.started_at) + "\n")
+
+# print(type(data_obj.data[0].user_login))
+#print(tempo_transmissao(data_obj.data[0].started_at))
