@@ -5,8 +5,13 @@
 ![Status](https://img.shields.io/badge/Status-in%20development-brightgreen?style=flat)
 
 ## Sobre
-- Projeto pessoal para visualizar o status dos streamers seguidos pelo usuário que estão ao vivo, utilizando uma API do serviço de streaming Twitch. 
+- Extensão que dispõem informações sobre a atividade dos streamers ao vivo, seja:
+  - Horário de início de transmissão;
+  - Duração total da transmissão;
+  - Jogos jogados pelo streamer;
+- Utiliza a API do serviço de streaming Twitch.
+- Gera página web para visualizar as informações.
 
 ## Tecnologias Usadas
 - `PyCharm`
-
+- <a href="https://dev.twitch.tv/docs/api">`Twitch API`</a>
