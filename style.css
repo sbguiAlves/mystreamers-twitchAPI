@@ -1,0 +1,137 @@
+html * {
+    font-family: "roobert", sans-serif;
+    
+}
+
+header {
+    background: #18181b;
+    box-shadow: var(--shadow-elevation-1) !important;
+}
+
+h2{
+    display: inline-block;
+    margin: 0px;
+}
+
+a:link, a:visited{
+    color: blue;
+}
+
+.caixa-principal {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100% !important;
+}
+
+.caixa-principal h1 {
+    text-shadow: 2px 1px #000000;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "roobert", sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+/*Tabela
+table {
+    width: 100%;
+    border: 2px solid #000000;
+    padding: 20px 40px;
+}
+
+thead{
+    background: #9146ff;
+    color: white;
+    height: 30px;
+    align-items: center;
+} 
+
+.tabela{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+td{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #9146ff;
+    color: white;
+}
+
+td {
+    /*Conteudo de célula*/
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+.live-info{
+    padding-left: 10px;
+}
+
+.live-streamer{
+    display: inline;
+}
+
+.live-title{
+    margin: 5px auto 15px;
+    font-weight: normal;
+}
+
+.live-game img{
+    vertical-align: bottom;
+}
+
+.game{
+    margin: 0px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6c30c7;
+    display: inline-block;
+}
+
+.link-streamer {
+    margin-top: 5px;
+}
+
+.date{
+    text-align: center;
+}
+
+/*Rodapé*/
+footer {
+    text-align: center;
+    background: #18181b;
+    padding: 10px 0px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+}
