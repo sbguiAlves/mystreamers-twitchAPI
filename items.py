@@ -7,12 +7,8 @@ class Items:
     def customDataDecoder(dataDict):
         return namedtuple('X', dataDict.keys())(*dataDict.values())
 
-    def verificar_status(status):
-        if status == 'live':
-            return 'ao vivo!'
-        return 'offline.'
 
-    def tempo_transmissao(data_str):
+    def tempo_inicio(data_str):
         data_obj = datetime.strptime(data_str, "%Y-%m-%dT%H:%M:%SZ")
         data_atual = datetime.now()
         segundos = (data_atual - data_obj).seconds
@@ -22,7 +18,8 @@ class Items:
         else:
             data_inicio = data_obj.strftime("%H:%M (%d/%m)")
 
-        return f"Início: {data_inicio} <br> Transmitindo à: {str(timedelta(seconds=segundos))}"
+        return f"Iniciou às: {data_inicio} <br>Tempo de Transmissão: {str(timedelta(seconds=segundos))}"
+
 
     # Main da classe
     with open('streams.json', encoding="utf-8") as file:
