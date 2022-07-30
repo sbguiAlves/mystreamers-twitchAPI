@@ -18,3 +18,4 @@ if __name__ == '__main__':
         json.dump(json_object,file)
 
     gerador_html(Items)
+

@@ -2,8 +2,11 @@ import webbrowser
 import requests
 import json
 
-Client_Id = ''
-Secret = ''
+with open("client.txt", "r") as file:
+    readline = file.read().splitlines()
+    Client_Id = readline[0]
+    Secret = readline[1]
+
 
 def get_authorization():
     auth_url = "https://id.twitch.tv/oauth2/authorize"
