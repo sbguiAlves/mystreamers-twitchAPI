@@ -1,82 +1,101 @@
 {
-    "data": [
-        {
-            "id": "39930573017",
-            "user_id": "36413513",
-            "user_login": "mrfalll",
-            "user_name": "MrFalll",
-            "game_id": "491931",
-            "game_name": "Escape from Tarkov",
-            "type": "live",
-            "title": "143 - !SUBATHON LIVE FINITA! Ajude com seu amor!",
-            "viewer_count": 794,
-            "started_at": "2022-07-21T14:58:54Z",
-            "language": "pt",
-            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrfalll-{width}x{height}.jpg",
-            "tag_ids": [
-                "39ee8140-901a-4762-bfca-8260dea1310f"
-            ],
-            "is_mature": true
-        },
-        {
-            "id": "39935225337",
-            "user_id": "112089087",
-            "user_login": "udocinho",
-            "user_name": "uDocinho",
-            "game_id": "511224",
-            "game_name": "Apex Legends",
-            "type": "live",
-            "title": "EVENTINHO AMANHÃ | !LOJA !REDRAGON !SOCIAIS !PIX !SUB !LISTA",
-            "viewer_count": 106,
-            "started_at": "2022-07-18T12:00:14Z",
-            "language": "pt",
-            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_udocinho-{width}x{height}.jpg",
-            "tag_ids": [
-                "39ee8140-901a-4762-bfca-8260dea1310f",
-                "8bbdb07d-df18-4f82-a928-04a9003e9a7e",
-                "ac763b17-7bea-4632-9eb4-d106689ff409",
-                "cc8d5abb-39c9-4942-a1ee-e1558512119e",
-                "fd8f5e68-42d3-4544-a273-5fc92dabc568"
-            ],
-            "is_mature": true
-        },
-        {
-            "id": "39935315129",
-            "user_id": "46866353",
-            "user_login": "hukizan",
-            "user_name": "Hukizan",
-            "game_id": "1366308398",
-            "game_name": "Say No! More",
-            "type": "live",
-            "title": "Live 123: ESTAMOS OFICIALMENTE DE VOLTA",
-            "viewer_count": 53,
-            "started_at": "2022-07-18T13:01:47Z",
-            "language": "pt",
-            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hukizan-{width}x{height}.jpg",
-            "tag_ids": [
-                "afc8211a-8eee-48b8-9e18-212f22f657db",
-                "39ee8140-901a-4762-bfca-8260dea1310f"
-            ],
-            "is_mature": false
-        },
-        {
-            "id": "39935540073",
-            "user_id": "416607315",
-            "user_login": "bolinhodelua",
-            "user_name": "bolinhodelua",
-            "game_id": "514934",
-            "game_name": "Story of Seasons: Friends of Mineral Town",
-            "type": "live",
-            "title": "Finalmente vamo fazendar ♥",
-            "viewer_count": 16,
-            "started_at": "2022-07-18T14:46:05Z",
-            "language": "pt",
-            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bolinhodelua-{width}x{height}.jpg",
-            "tag_ids": [
-                "39ee8140-901a-4762-bfca-8260dea1310f"
-            ],
-            "is_mature": false
-        }
-    ],
-    "pagination": {}
+  "data": [
+    {
+      "id": "39995817337",
+      "user_id": "23161357",
+      "user_login": "lirik",
+      "user_name": "LIRIK",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "yup",
+      "viewer_count": 25374,
+      "started_at": "2022-07-30T16:12:38Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+        "fe9d503e-a8a7-4301-8015-5034e42ad380",
+        "988c8c1b-b991-4b66-9a6d-b36f60363f6d",
+        "7b30388b-7381-4c4f-93b7-14050e03c1d6",
+        "326bf42d-75ab-4701-9862-faf0c6e24fc8",
+        "2193eee1-b8f0-43bd-a6d9-dba8a67528a1"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39996555241",
+      "user_id": "29020626",
+      "user_login": "ljoga",
+      "user_name": "LJoga",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "ELE N\u00c3O \u00c9 NEM LOUCO | !streambet",
+      "viewer_count": 599,
+      "started_at": "2022-07-30T18:58:17Z",
+      "language": "pt",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ljoga-{width}x{height}.jpg",
+      "tag_ids": [
+        "8bbdb07d-df18-4f82-a928-04a9003e9a7e",
+        "39ee8140-901a-4762-bfca-8260dea1310f"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39996826505",
+      "user_id": "35647075",
+      "user_login": "patopapao",
+      "user_name": "PatoPapao",
+      "game_id": "511734",
+      "game_name": "Coromon",
+      "type": "live",
+      "title": "Coromon nuzlocke | !reddit [Pato Pafoco 0/90] !patopafoco",
+      "viewer_count": 518,
+      "started_at": "2022-07-30T19:52:35Z",
+      "language": "pt",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_patopapao-{width}x{height}.jpg",
+      "tag_ids": [
+        "39ee8140-901a-4762-bfca-8260dea1310f"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39996400697",
+      "user_id": "72871495",
+      "user_login": "vxgameplay",
+      "user_name": "Vxgameplay",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "157 - Encaixa encaixa LEGO | !pix",
+      "viewer_count": 227,
+      "started_at": "2022-07-30T18:25:44Z",
+      "language": "pt",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vxgameplay-{width}x{height}.jpg",
+      "tag_ids": [
+        "39ee8140-901a-4762-bfca-8260dea1310f"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39996627337",
+      "user_id": "36413513",
+      "user_login": "mrfalll",
+      "user_name": "MrFalll",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "147 - FALLRRAI\u00c1 !vod !gg2years",
+      "viewer_count": 218,
+      "started_at": "2022-07-30T19:11:59Z",
+      "language": "pt",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrfalll-{width}x{height}.jpg",
+      "tag_ids": [
+        "39ee8140-901a-4762-bfca-8260dea1310f"
+      ],
+      "is_mature": true
+    }
+  ],
+  "pagination": {}
 }
