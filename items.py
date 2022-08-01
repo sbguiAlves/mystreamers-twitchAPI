@@ -1,27 +1,30 @@
 import json
 from collections import namedtuple
 from datetime import datetime, timedelta
-
+from pytz import timezone
 
 class Items:
     def customDataDecoder(dataDict):
         return namedtuple('X', dataDict.keys())(*dataDict.values())
 
+    def data_hora_inicio(self):
+        fuso_horario = timezone('America/Sao_Paulo')
+        tempo_obj = datetime.strptime(self, "%Y-%m-%dT%H:%M:%S%z")
 
-    def tempo_inicio(data_str):
-        data_obj = datetime.strptime(data_str, "%Y-%m-%dT%H:%M:%SZ")
-        data_atual = datetime.now()
-        segundos = (data_atual - data_obj).seconds
+        tempo_obj_fuso_horario = tempo_obj.astimezone(fuso_horario)
+        tempo_str_fuso_horario = tempo_obj_fuso_horario.strftime("%H:%M (%d/%m)")
 
-        if data_atual.date() == data_obj.date():
-            data_inicio = data_obj.strftime("%H:%M")
-        else:
-            data_inicio = data_obj.strftime("%H:%M (%d/%m)")
+        return f'<b>Iniciou às:</b> {tempo_str_fuso_horario}'
 
-        return f"Iniciou às: {data_inicio} <br>Tempo de Transmissão: {str(timedelta(seconds=segundos))}"
+    def data_hora_transmitido(self):
+        tempo_obj = datetime.strptime(self, "%Y-%m-%dT%H:%M:%SZ")
 
+        tempo_atual = datetime.now()
+        segundos_obj = (tempo_atual - tempo_obj).seconds
+        tempo_transmitido_str = timedelta(seconds=segundos_obj) - timedelta(hours=-3) - timedelta(days=1)
 
-    # Main da classe
+        return f'<b>Transmitindo à:</b> {tempo_transmitido_str}'
+
     with open('streams.json', encoding="utf-8") as file:
         json_file = file.read()
         data_obj = json.loads(json_file, object_hook=customDataDecoder)

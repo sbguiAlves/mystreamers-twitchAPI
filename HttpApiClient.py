@@ -22,7 +22,7 @@ def get_authorization():
     webbrowser.open(request_authorization.url)
 
 
-def get_access_token(code):
+def set_access_token(code):
     auth_url = "https://id.twitch.tv/oauth2/token"
 
     aut_params = {
@@ -55,7 +55,6 @@ def get_header(access_token):
 
 
 def get_followed_streamers(access_token, login):
-
     my_id = get_id(access_token, login)
     head_url = "https://api.twitch.tv/helix/streams/followed?user_id=" + my_id
     header = get_header(access_token)

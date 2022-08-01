@@ -46,31 +46,6 @@ body{
     margin: 0px;
 }
 
-/*Tabela
-table {
-    width: 100%;
-    border: 2px solid #000000;
-    padding: 20px 40px;
-}
-
-thead{
-    background: #9146ff;
-    color: white;
-    height: 30px;
-    align-items: center;
-} 
-
-.tabela{
-    width: 940px;
-    margin: 0 auto;
-    padding: 20px 40px;
-}
-
-td{
-    border: 1px solid #000000;
-    padding: 8px 15px;
-}*/
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -112,8 +87,13 @@ td {
     margin: 0px 5px;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
     color: #6c30c7;
     display: inline-block;
+}
+
+.time p{
+    margin: 5px 5px;
 }
 
 .link-streamer {
